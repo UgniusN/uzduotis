@@ -18,6 +18,7 @@ namespace uzduotis1
             double vidurkis = suma / 3;
 
 
+            Console.BackgroundColor = ConsoleColor.White;
             Console.WriteLine("██████████████████████████████████████████████████");
             Console.WriteLine("█                                                █");
             Console.WriteLine("█                Duomenu lentele                 █");
@@ -31,6 +32,9 @@ namespace uzduotis1
             Console.WriteLine("█       Kintamuju suma: {0}         █", suma);
             Console.WriteLine("█                                                █");
             Console.WriteLine("██████████████████████████████████████████████████");
+
+             
+            Console.WriteLine();
             Console.ReadLine();
 
         }
