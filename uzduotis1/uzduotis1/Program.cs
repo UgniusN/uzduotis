@@ -14,6 +14,8 @@ namespace uzduotis1
             double ZemesPlotas = 4 * Math.PI * Math.Pow(ZemesSpindulys, 2);
             double ZemesTuris = 4 / 3 * Math.PI * Math.Pow(ZemesSpindulys, 3);
             double izambine = Math.Sqrt(Math.Pow(10, 2) + Math.Pow(15, 2));
+            double suma = ZemesTuris + ZemesPlotas + izambine;
+            double vidurkis = suma / 3;
 
             Console.WriteLine("|-----------------------------------------------|");
             Console.WriteLine("*##############################################*");
