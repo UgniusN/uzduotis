@@ -10,8 +10,9 @@ namespace uzduotis1
     {
         static void Main(string[] args)
         {
-            double ZemesSpindulys = 63714444;
-            ///aslkfsaklfjkldsjfklsdk
+            int ZemesSpindulys = 6371;
+            double ZemesPlotas = 4 * Math.PI * Math.Pow(ZemesSpindulys, 2);
+            
             
         
         }
