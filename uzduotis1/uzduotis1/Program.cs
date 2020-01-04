@@ -10,7 +10,8 @@ namespace uzduotis1
     {
         static void Main(string[] args)
         {
-            double ZemesSpindulys = 6371;
+            double ZemesSpindulys = 63714444;
+            ///aslkfsaklfjkldsjfklsdk
             
         
         }
