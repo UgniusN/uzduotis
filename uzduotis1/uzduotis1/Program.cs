@@ -27,7 +27,7 @@ namespace uzduotis1
             Console.WriteLine("█       Zemes plotas: {0}               █", ZemesPlotas);
             Console.WriteLine("█       Zemes turis: {0}             █", ZemesTuris);
             Console.WriteLine("█       Staciakampio izambine: {0}             █", izambine);
-            Console.WriteLine("█       Kintamuju vidurkis : {0}     █", vidurkis);
+            Console.WriteLine("█       Kintamuju vidurkis: {0}      █", vidurkis);
             Console.WriteLine("█       Kintamuju suma: {0}          █", suma);
             Console.WriteLine("█                                                █");
             Console.WriteLine("██████████████████████████████████████████████████");
