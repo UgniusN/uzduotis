@@ -17,15 +17,20 @@ namespace uzduotis1
             double suma = ZemesTuris + ZemesPlotas + izambine;
             double vidurkis = suma / 3;
 
-            Console.WriteLine("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
-            Console.WriteLine("■                                                ■");
-            Console.WriteLine("■       Zemes plotas: {0}           ■", ZemesPlotas);
-            Console.WriteLine("■       Zemes turis: {0}            ■", ZemesTuris);
-            Console.WriteLine("■       Staciakampio izambine: {0}  ■", izambine);
-            Console.WriteLine("■       Kintamuju vidurkis : {0}    ■", vidurkis);
-            Console.WriteLine("■       Kintamuju suma: {0}         ■", suma);
-            Console.WriteLine("■                                                ■");
-            Console.WriteLine("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+
+            Console.WriteLine("██████████████████████████████████████████████████");
+            Console.WriteLine("█                                                █");
+            Console.WriteLine("█                Duomenu lentele                 █");
+            Console.WriteLine("█                                                █");
+            Console.WriteLine("██████████████████████████████████████████████████");
+            Console.WriteLine("█                                                █");
+            Console.WriteLine("█       Zemes plotas: {0}           █", ZemesPlotas);
+            Console.WriteLine("█       Zemes turis: {0}            █", ZemesTuris);
+            Console.WriteLine("█       Staciakampio izambine: {0}  █", izambine);
+            Console.WriteLine("█       Kintamuju vidurkis : {0}    █", vidurkis);
+            Console.WriteLine("█       Kintamuju suma: {0}         █", suma);
+            Console.WriteLine("█                                                █");
+            Console.WriteLine("██████████████████████████████████████████████████");
             Console.ReadLine();
 
         }
