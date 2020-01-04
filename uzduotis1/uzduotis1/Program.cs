@@ -13,13 +13,15 @@ namespace uzduotis1
             int ZemesSpindulys = 6371;
             double ZemesPlotas = 4 * Math.PI * Math.Pow(ZemesSpindulys, 2);
             double ZemesTuris = 4 / 3 * Math.PI * Math.Pow(ZemesSpindulys, 3);
-
+            double izambine = Math.Sqrt(Math.Pow(10, 2) + Math.Pow(15, 2));
 
             Console.WriteLine("|-----------------------------------------------|");
             Console.WriteLine("*##############################################*");
             Console.WriteLine("*#    **$ Zemes plotas:");
             Console.WriteLine("*##############################################*");
             Console.ReadLine();
+            
+        
         }
     }
 }
