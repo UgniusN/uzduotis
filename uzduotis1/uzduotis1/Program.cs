@@ -18,12 +18,12 @@ namespace uzduotis1
             double vidurkis = suma / 3;
 
             Console.WriteLine("|-----------------------------------------------|");
-            Console.WriteLine("*##################################################*");
+            Console.WriteLine("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■*");
             Console.WriteLine("*#   **$ Zemes plotas: {0}           #*", ZemesPlotas);
             Console.WriteLine("*#   **$ Zemes turis: {0}            #*", ZemesTuris);
             Console.WriteLine("*#   **$ Staciakampio izambine: {0}  #*", izambine);
             Console.WriteLine("*#   **$ Kintamuju vidurkis : {0}", vidurkis);
-            Console.WriteLine("*##############################################*");
+            Console.WriteLine("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■*");
             Console.WriteLine("|-----------------------------------------------|");
             Console.ReadLine();
             Console.WriteLine("*#   **$ Kintamuju suma: {0}", suma);
