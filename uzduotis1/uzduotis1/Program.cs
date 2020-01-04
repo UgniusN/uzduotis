@@ -11,13 +11,13 @@ namespace uzduotis1
         static void Main(string[] args)
         {
             int ZemesSpindulys = 6371;
-            double ZemesPlotas = 4 * Math.PI * Math.Pow(ZemesSpindulys, 2);
-            double ZemesTuris = 4 / 3 * Math.PI * Math.Pow(ZemesSpindulys, 3);
-            double izambine = Math.Sqrt(Math.Pow(10, 2) + Math.Pow(15, 2));
-            double suma = ZemesTuris + ZemesPlotas + izambine;
-            double vidurkis = suma / 3;
+            double ZemesPlotas = Math.Round(4 * Math.PI * Math.Pow(ZemesSpindulys, 2),2);
+            double ZemesTuris = Math.Round(4 / 3 * Math.PI * Math.Pow(ZemesSpindulys, 3),2);
+            double izambine = Math.Round(Math.Sqrt(Math.Pow(10, 2) + Math.Pow(15, 2)),2);
+            double suma = Math.Round(ZemesTuris + ZemesPlotas + izambine,2);
+            double vidurkis = Math.Round(suma / 3,2);
 
-
+            // smaikstus juokelis
             Console.WriteLine("██████████████████████████████████████████████████");
             Console.WriteLine("█                                                █");
             Console.WriteLine("█                Duomenu lentele                 █");
